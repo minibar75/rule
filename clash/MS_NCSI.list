@@ -1,0 +1,8 @@
+# 微软NCSI探测
+# 放行 msftconnecttest.com 域名及其子域名
+# 放行 msn.com 域名及其子域名 (可选，如果需要更稳定的检测)
+# 放行 msftncsi.com 域名及其子域名 (可选，更彻底的方案)
+
+DOMAIN-SUFFIX,msftconnecttest.com   
+DOMAIN-SUFFIX,msn.com              
+DOMAIN-SUFFIX,msftncsi.com          
